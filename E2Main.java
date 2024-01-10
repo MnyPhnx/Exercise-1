@@ -1,6 +1,6 @@
 class Rectangle {
-  double length;
-  double width;
+  private double length;
+  private double width;
 
   Rectangle(double length, double width) {
     this.length = length;
@@ -15,7 +15,7 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-  Square(double side) {
+  public Square(double side) {
     super(side, side);
   }
 }
